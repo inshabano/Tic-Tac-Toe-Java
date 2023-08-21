@@ -61,3 +61,5 @@ public class Player {
         return new Move(new Cell(row,col),this);
     }
 }
+
+//Players Info and method
