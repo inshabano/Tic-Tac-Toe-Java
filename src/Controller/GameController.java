@@ -12,7 +12,7 @@ import java.util.List;
 
 public class GameController {
     public Game StartGame(int dimension, List<Player> players, List<Rules> strategy) throws BotMoreThanOne, RepeatedSymbol, PlayerCount {
-        return  Game.getBuilder()
+        return Game.getBuilder()
                 .setDimension(dimension)
                 .setPlayers(players)
                 .setStrategy(strategy)
@@ -36,3 +36,5 @@ public class GameController {
         return game.getWinner();
      }
 }
+
+// Game controller working as service provider
