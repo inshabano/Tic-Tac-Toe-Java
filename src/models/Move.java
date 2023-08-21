@@ -40,3 +40,4 @@ public class Move {
         this.cellstate = cellstate;
     }
 }
+//Move played by players
