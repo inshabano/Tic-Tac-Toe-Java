@@ -52,7 +52,7 @@ Installation
 Clone the repository:
 
 Copy code-  
-git clone  https://github.com/inshabano/Tic-Tac-Toe-Java.git
+git clone  https://github.com/inshabano/tictactoejava.git
 
 Compile the Java source files:
 
